@@ -1,3 +1,4 @@
 cryptography==38.0.4
 virtualenv==20.25.0
 streamlit==1.29.0
+streamlit-multipage==0.0.18
