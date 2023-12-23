@@ -1,0 +1,3 @@
+[submodule "apps/streamlit-multipage-init"]
+	path = apps/streamlit-multipage-init
+	url = https://github.com/ELC/streamlit-multipage.git

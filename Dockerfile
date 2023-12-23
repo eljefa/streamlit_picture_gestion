@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-RUN git clone  https://github.com/eljefa/streamlit_picture_gestion/ .
+RUN git clone -b master  https://github.com/eljefa/streamlit_picture_gestion/ .
 
 RUN pip3 install -r requirements.txt
 
